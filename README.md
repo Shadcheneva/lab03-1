@@ -163,8 +163,8 @@ $ gistup -m "lab${LAB_NUMBER}"
 Вам поручили перейти на систему автоматизированной сборки CMake. Исходные файлы находятся в директории formatter_lib. В этой директории находятся файлы для статической библиотеки formatter. Создайте CMakeList.txt в директории formatter_lib, с помощью которого можно будет собирать статическую библиотеку formatter.
 
 ```
-$ git clone https://github.com/dankokin/lab03
-$ cd lab03
+$ git clone https://github.com/tp-labs/lab03
+$ cd lab03-1
 $ cd formatter_lib
 $ cat >> CMakeLists.txt << EOF
 > EOF
